@@ -143,7 +143,7 @@ var dfs = () =>
     function srch( cluster )
     /** check whether cluster is'n stk */
     {   var j = 0;
-		for(; j < stk.length; ++j )
+        for(; j < stk.length; ++j )
         {   if( similar( stk[j].mtrx, cluster.mtrx ))
             {   break; }}
         return j; }
